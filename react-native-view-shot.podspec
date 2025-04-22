@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/gre/react-native-view-shot.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,mm}"
 
-  install_modules_dependencies(s)
+  #install_modules_dependencies(s)
+  s.dependency 'React-Core'
 end
 
